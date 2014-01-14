@@ -40,7 +40,7 @@ typedef enum PeripheralPinTypes : NSInteger{
 #define BLELogging(fmt, ...) \
 do { \
 if(BLELoggerActive) \
-NSLog(@"%s:%d (%s) CoreData log: --- " fmt, __FILE__, __LINE__, __func__, ## __VA_ARGS__); \
+NSLog(@"%s:%d (%s) BLELogging log: --- " fmt, __FILE__, __LINE__, __func__, ## __VA_ARGS__); \
 } while(0)
 
 #endif

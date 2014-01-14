@@ -21,6 +21,7 @@
 		98F05C20187F6D60009264C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F05C02187F6D60009264C8 /* UIKit.framework */; };
 		98F05C28187F6D60009264C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98F05C26187F6D60009264C8 /* InfoPlist.strings */; };
 		98F05C2A187F6D60009264C8 /* BLE_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F05C29187F6D60009264C8 /* BLE_TestTests.m */; };
+		98F05C36187F6D8A009264C8 /* BLEManagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F05C35187F6D8A009264C8 /* BLEManagerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		98F05C25187F6D60009264C8 /* BLE TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLE TestTests-Info.plist"; sourceTree = "<group>"; };
 		98F05C27187F6D60009264C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		98F05C29187F6D60009264C8 /* BLE_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLE_TestTests.m; sourceTree = "<group>"; };
+		98F05C34187F6D8A009264C8 /* BLEManagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEManagerController.h; sourceTree = "<group>"; };
+		98F05C35187F6D8A009264C8 /* BLEManagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEManagerController.m; sourceTree = "<group>"; };
+		98F05C3B187F6E08009264C8 /* BLEConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,7 @@
 		98F05C04187F6D60009264C8 /* BLE Test */ = {
 			isa = PBXGroup;
 			children = (
+				98F05C33187F6D67009264C8 /* BLE */,
 				98F05C0D187F6D60009264C8 /* APGAppDelegate.h */,
 				98F05C0E187F6D60009264C8 /* APGAppDelegate.m */,
 				98F05C10187F6D60009264C8 /* Main.storyboard */,
@@ -150,6 +155,16 @@
 				98F05C26187F6D60009264C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98F05C33187F6D67009264C8 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				98F05C34187F6D8A009264C8 /* BLEManagerController.h */,
+				98F05C35187F6D8A009264C8 /* BLEManagerController.m */,
+				98F05C3B187F6E08009264C8 /* BLEConstants.h */,
+			);
+			name = BLE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +268,7 @@
 				98F05C0B187F6D60009264C8 /* main.m in Sources */,
 				98F05C0F187F6D60009264C8 /* APGAppDelegate.m in Sources */,
 				98F05C15187F6D60009264C8 /* APGViewController.m in Sources */,
+				98F05C36187F6D8A009264C8 /* BLEManagerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
